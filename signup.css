@@ -1,0 +1,106 @@
+body{
+  background-image: linear-gradient(135deg,#ffb347,#ffe17d) ;
+}
+ .login{
+     margin: auto;
+     margin-top: 100px;
+     background-color: white;
+     padding: 5px;
+     border-radius: 20px;
+     height: 400px;
+     width: 300px;
+     position: relative;   
+ }
+ .btn1{
+ margin-left: 30px;
+ height: 30px;
+ width: 235px;
+ text-align: left;
+ border-radius: 5px;
+ border-width: thin;
+ color: black;
+ 
+ }
+ .btn2{
+     border-radius: 5px;
+     height: 30px;
+     width: 125px;
+     margin-left: -130px;
+     background-image: linear-gradient(90deg,#040425 5%,#3939B6 90%);
+     border-width: thin;
+     color: white;
+ }
+ .btn1:active{
+     background-image: linear-gradient(90deg,#040425 5%,#3939B6 90%);
+ }
+ .text1{
+     margin-left: 30px;
+     width: 235px;
+     border-radius: 5px;
+     border-width: thin;
+ }
+ .forgot{
+     margin-left: 30px;
+     font-size: small;
+ }
+ .buttons{
+  padding-top: 30px;
+ }
+ .btn3{
+     margin-left: 30px;
+ height: 30px;
+ width: 235px;
+ color: white;
+ border-radius: 5px;
+ border-width: thin;
+ background-image: linear-gradient(90deg,#040425 5%,#3939B6 90%);
+ }
+ .btn3:hover{
+     transform: scale(1.05);
+ }
+ .btn2:hover{
+     transform: scale(1.05);
+ }
+ .circle{
+  height: 200px;
+  width: 200px;
+  margin-top: -1000px;
+  margin-left: -100px;
+  margin-right: 600px;
+  transform: rotate(90deg);
+ }
+ .circle1{
+  height: 100px;
+  width: 100px;
+  margin-top: -930px;
+  margin-left: 110px;
+ }
+ .circle2{
+  height: 200px;
+  width: 200px;
+  margin-top: -80px;
+  margin-left: -500px;
+  margin-right: 120px;
+  transform: rotate(90deg);
+  z-index: 2;
+  
+ }
+ .login > h1{
+     text-align: center;
+     font-size: 30px;
+     margin-top: 20px;
+     
+ }
+ .image{
+  display: none;
+     margin-left: 900px;
+     margin-top: -400px;
+     height: 200px;
+ }
+ .ring{
+     margin-top: -400px;
+     height: 600px;
+     width: 500px;
+     z-index: 1;
+     margin-left: 600px;
+ }

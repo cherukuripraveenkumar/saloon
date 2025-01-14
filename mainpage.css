@@ -1,0 +1,129 @@
+/* General Reset */
+  body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(135deg,#ffb347,#ffe17d) ;
+    color: #333;
+  }
+  
+  /* Navbar Styling */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+    padding: 30px 30px;
+    background-color: transparent;
+  }
+  
+  .navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .navbar .menu {
+    
+    text-align: end;
+    display: flex;
+    gap: 50px;
+  }
+  
+  .navbar .menu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .navbar .menu a:hover {
+    text-decoration: underline;
+  }
+  
+  .menu-icon {
+    display: flex;
+    justify-content: center;
+    color:black;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .text-content {
+    max-width: 50%;
+    margin-left: 30px;
+  }
+  
+  .text-content h1 {
+    font-size: 3rem;
+  margin-bottom: 20px;
+  color: #333;
+  }
+  
+  .text-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    color: #555;
+  }
+  
+  .text-content button {
+    padding: 10px 20px;
+    background-color: #ff5252;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 5px;
+    width: 250px;
+  }
+  
+  .text-content button:hover {
+    background-color: #e64545;
+  }
+  .image-content{
+     margin-right: 100px;
+     
+
+  }
+  .image-content img {
+    max-width: 80%;
+    border-radius: 10px;
+    box-shadow: 
+      0 0 30px 20px rgba(255, 255, 255, 0.8), 
+      0 0 15px 10px rgba(255, 255, 255, 0.5);
+    transition: transform 0.3s ease;
+  }
+  .image-content img:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .hero-section {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .text-content {
+      max-width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .image-content img {
+      width: 100%;
+      max-width: 500px;
+    }
+  
+    .menu-icon {
+      display: block;
+    }
+  
+    .menu {
+      display: none;
+    }
+  }
+  
